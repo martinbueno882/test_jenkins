@@ -8,6 +8,7 @@ pipeline {
                     sh 'docker start contenedor_mysql'
                     sh 'echo inicio el docker'
                     sh 'echo Prueba de pipeline jenkins'
+                    sh 'echo Prueba de pipeline jenkins x2'
                 }
             }
         }
